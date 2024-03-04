@@ -1,33 +1,33 @@
-#include <iostream>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-int main() {
-    float height;
+// int main() {
+//     float height;
 
-    // Prompt the user to enter their height
-    cout << "Enter the height (in centimeters): ";
-    cin >> height;
+//     // Prompt the user to enter their height
+//     cout << "Enter the height (in centimeters): ";
+//     cin >> height;
 
-    // Define categories and their corresponding height ranges
-    const int dwarfMax = 150;
-    const int averageMin = 151;
-    const int averageMax = 165;
-    const int tallMin = 166;
+//     // Define categories and their corresponding height ranges
+//     const int dwarfMax = 150;
+//     const int averageMin = 151;
+//     const int averageMax = 165;
+//     const int tallMin = 166;
 
-    // Determine the category based on the height
-    if (height < dwarfMax) {
-        cout << "The person is Dwarf." << endl;
-    } else if (height >= averageMin && height <= averageMax) {
-        cout << "The person is of Average Height." << endl;
-    } else if (height >= tallMin) {
-        cout << "The person is Tall." << endl;
-    } else {
-        cout << "The person has an abnormal height." << endl;
-    }
+//     // Determine the category based on the height
+//     if (height < dwarfMax) {
+//         cout << "The person is Dwarf." << endl;
+//     } else if (height >= averageMin && height <= averageMax) {
+//         cout << "The person is of Average Height." << endl;
+//     } else if (height >= tallMin) {
+//         cout << "The person is Tall." << endl;
+//     } else {
+//         cout << "The person has an abnormal height." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 // -------------------------------------------------------------------------
 
